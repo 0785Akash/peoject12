@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/homepage.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Website</title>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="topleft">
+                <div><i class="fa-solid fa-phone"></i>7709180118</div>
+                <div><i class="fa-regular fa-envelope"></i>0785Akash@gmail.com</div>
+            </div>
+           <div class="topright">
+            <div class="icon_fac"><i class="fa-brands fa-facebook"></i></div>
+            <div class="icon_lin"><i class="fa-brands fa-linkedin"></i></div>
+            <div class="icon_twi"><i class="fa-brands fa-twitter"></i></div>
+            <div class="icon_insta"><i class="fa-brands fa-instagram"></i></div>
+           </div>
+        </div>
+        <div class="header">
+            <div class="hlogo">
+                <img src="./images1/ecommerce(logo2).png" alt="image" id="i1"/>
+            </div>
+            <div class="hmenu">
+                <a href="homepage.html" class="atag"><div>Home</div></a>
+                <a href="productpage.html" class="atag"><div>Product</div></a>
+                <div>About Us</div>
+                <a href="contactpage.html" class="atag"><div>Contact us</div></a>
+                <div class="brand">Brands<i class="fa-solid fa-angle-down"></i>
+                    <div class="nbrand" id="nbrand">
+                        <div>Puma</div>
+                        <div>Sparx</div>
+                        <div>Paragon</div>
+                        <div>Campus</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hsignin">
+                <div class="signinbnt" onclick="signuppopup()"><button>Signup</button></div>
+                <div class="signinbnt" onclick="signuppopup1()"><button>Login</button></div>
+            </div>
+        </div>
+        <div class="body" id="bdy">
+            <div class="bodyleft">
+                <h1>Welcome To Boots Shop</h1>
+                <a href="productpage.html"><button class="blbtn">Shop Now</button></a>
+            </div>
+            <div class="bodyright">
+                <img src="./images1/slider_img1.png" id="img1"/>
+                
+            </div>
+            <div class="arrow">
+                <div onclick="fun()">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+                <div onclick="fun1()">
+                    <i class="fa-solid fa-greater-than"></i>
+                </div>
+
+            </div>
+        </div>
+        <div class="bodynxt">
+            <div class="fp"><h1>FEATURED PRODUCT</h1></div>
+            <div class="bodyprd">
+                <div>
+                    <div class="bimg1"><img src="p3.jpeg" class="i2"  id="i2"/></div>
+                    <div class="bnh2"><h2>ADIDAS SHOES</h2></div>
+                    <div class="bnbtn"><button>SHOP NOW</button></div>
+
+                </div>
+                <div>
+                    <div class="bimg1"><img src="p2.jpeg" class="i2" id="i2"/></div>
+                    <div class="bnh2"><h2>SPARK SHOES</h2></div>
+                    <div class="bnbtn"><button>SHOP NOW</button></div>
+
+                </div>
+                <div>
+                    <div class="bimg1"><img src="p6.jpeg" class="i2"  id="i2"/></div>
+                    <div class="bnh2"><h2>CAMPUS SHOES</h2></div>
+                    <div class="bnbtn"><button>SHOP NOW</button></div>
+
+                </div>
+                <div>
+                    <div class="bimg1"><img src="p9.jpeg" class="i2"  id="i2"/></div>
+                    <div class="bnh2"><h2>PUMA SHOES</h2></div>
+                    <div class="bnbtn"><button>SHOP NOW</button></div>
+                </div>
+                <div class="arrow1">
+                    <div onclick="fun2()">
+                        <i class="fa-solid fa-less-than"></i>
+                    </div>
+                    <div onclick="fun3()">
+                        <i class="fa-solid fa-greater-than"></i>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+        <footer class="ftr">
+            <div class="ftrh1"><h1>Does your brand need some love?we'd love to help! give us a shout</h1></div>
+            <div class="ftrp"><p>Mail us:0785Akash@gmail.com</p></div>
+        </footer>
+        <div class="whtsap">
+                <a href="https://wa.me/919158391388">
+                    <img src="./images1/580b57fcd9996e24bc43c543.png"/>
+                </a>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+      <div class="popupmain">
+        <div class="popupform">
+            <form>
+            <div class="poph2"><h2>Signup</h2></div>
+            <div class="popp"><p>create account for free</p></div>    
+            <div><input type="text" placeholder="first name"/></div>
+            <div><input type="text" placeholder="last name"/></div>
+            <div><input type="text" placeholder="username"/></div>
+            <div><input type="text" placeholder="mobile no"/></div>
+            <div><input type="password" placeholder="password"/></div>
+            <div><input type="password" placeholder="confirm password"/></div>
+            <div class="popp"><p>continuing you are agree to boots terms of use and policies</p></div>
+            <div><a href="#"><p onclick="loginfun()">Already have account?login here</p></a></div>
+            <div class="popbtn"><button type="submit">Signup</button></div>
+           </form>
+        </div>
+        <div class="popupclose">
+            <div onclick="signuppopupclose()"><i class="fas fa-times times"></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup1">
+        <div class="popupmain">
+          <div class="popupform">
+              <form>
+              <div class="poph2"><h2>Login</h2></div>   
+              <div><input type="text" placeholder="username"/></div>
+              <div><input type="password" placeholder="password"/></div>
+              <div><a href="#" onclick="fpass()"><p>Forgot password?</p></div></a>
+              <div class="popbtn"><button type="submit">Login</button></div>
+             </form>
+          </div>
+          
+          <div class="popupclose">
+              <div onclick="loginpopupclose()"><i class="fas fa-times times"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="popup" id="popup2">
+        <div class="popupmain">
+          <div class="popupform">
+              <form>
+              <div class="poph2"><h2>Reset password</h2></div>   
+              <div><input type="password" placeholder="enter new password"/></div>
+              <div><input type="password" placeholder="re-enter new password"/></div>
+              <div class="popbtn"><button type="submit">Submit</button></div>
+             </form>
+          </div>
+          
+          <div class="popupclose">
+              <div onclick="fpassclse()"><i class="fas fa-times times"></i></div>
+          </div>
+        </div>
+      </div>
+    
+    <script src="./js/ecommerce.js"></script>
+</body>
+</html>

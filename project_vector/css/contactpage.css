@@ -1,0 +1,227 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+}
+.main{
+    width: 100%;
+    
+    
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#4CCFC1;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.topleft{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topleft div{
+    transition: 0.8s;
+}
+.topleft div:hover{
+    color: rgb(52, 58, 64);
+}
+.fa-solid,.fa-regular{
+    padding-right: 10px;
+}
+.topright{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon_fac,.icon_insta,.icon_twi,.icon_lin
+{
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    transition: 1s;
+/*    transform: transform:6s;*/
+    
+}
+.icon_fac:hover
+{
+    background-color: #3b5998 ;
+    color: white; 
+    transform: rotate(360deg);
+}
+.icon_insta:hover
+{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: white;
+    transform: rotate(360deg);
+
+}
+.icon_twi:hover
+{
+    background-color: #00acee ;
+    color: white;
+    transform: rotate(360deg);
+}
+.icon_lin:hover
+{
+    background-color: #0077b5;
+    transform: rotate(360deg);
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background-color: whitesmoke;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+.hlogo{
+    width: 10%;
+    height: auto;
+    
+}
+.hlogo img{
+    width: 100%;
+    height: 50px;
+}
+.hmenu
+{
+    width: 40%;
+    color:rgb(52, 58, 64);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-between;
+    transition: 0.8s;
+    
+}
+.hmenu .atag{
+    text-decoration:none;
+    color:rgb(52, 58, 64);
+}
+.hmenu div{
+    transition: 0.8s;
+}
+.hmenu div:hover{
+    color:#4CCFC1;
+}
+.hsignin{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.hsignin button{
+    background-color: #4CCFC1;
+    padding: 8px 10px;
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10%;
+    margin-left: 10px;
+    box-sizing: border-box;
+    transition: 1s;
+}
+.hsignin button:hover{
+    color: gray;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    
+    box-sizing: border-box;
+    padding: 10px 10px;
+
+}
+.cntinfo{
+    width: 100%;
+    font-size: 20px;
+    color: rgb(105, 94, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 3px 3px black;
+}
+.map{
+    width: 100%;
+    height:306px;
+    margin: auto;
+    border: 4px solid #4CCFC1;
+}
+.bform{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.g{
+    font-size: 30px;
+    text-shadow: 2px solid black;  
+}
+.form{
+    width: 100%;
+}
+.formtext{
+    width: 50%;
+    margin: 0px 10px;
+    height: 5vh;
+    font-size: 16px;
+}
+.btnsub{
+    width:120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #4CCFC1;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+/* footer */
+.ftr{
+    text-align: center;
+    background-color: #4CCFC1;
+    padding: 50px;
+}
+.ftrh1,.ftrh3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.ftrp{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding-top: 20px;
+    
+}
+.whtsap{
+    width: 15%;
+}
+.whtsap img{
+    width: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}

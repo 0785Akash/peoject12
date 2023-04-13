@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/productpage.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Productpage</title>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="topleft">
+                <div><i class="fa-solid fa-phone"></i>7709180118</div>
+                <div><i class="fa-regular fa-envelope"></i>0785Akash@gmail.com</div>
+            </div>
+           <div class="topright">
+            <div class="icon_fac"><i class="fa-brands fa-facebook"></i></div>
+            <div class="icon_lin"><i class="fa-brands fa-linkedin"></i></div>
+            <div class="icon_twi"><i class="fa-brands fa-twitter"></i></div>
+            <div class="icon_insta"><i class="fa-brands fa-instagram"></i></div>
+           </div>
+        </div>
+        <div class="header">
+            <div class="hlogo">
+                <img src="./images1/ecommerce(logo2).png" alt="image" id="i1"/>
+            </div>
+            <div class="hmenu">
+                <a href="homepage.html" class="atag"><div>Home</div></a>
+                <a href="productpage.html" class="atag"><div>Product</div></a>
+                <div>About Us</div>
+                <a href="contactpage.html" class="atag"><div>Contact us</div></a>
+                <div>Brands</div>
+            </div>
+            <div class="hsignin">
+                <div class="signinbnt"><button>Signup</button></div>
+                <div class="signinbnt"><button>Login</button></div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="bleft">
+                <div><h1>Filter</h1></div>
+                <div>
+                    <div class="check">
+                        <summary>FILTER</summary>
+                      <div>
+                      <input type="checkbox" value="shoes">ADIDAS
+                      </div>
+                      <div>
+                      <input type="checkbox" value="shoes">NIKE
+                      </div>
+                      <div>
+                      <input type="checkbox" value="shoes">SPARX
+                      </div>
+                      <div>
+                      <input type="checkbox" value="shoes">BATA
+                      </div>
+                      <div>
+                      <input type="checkbox" value="shoes">UNISTAR
+                      </div>
+                      <div>
+                      <input type="checkbox" value="shoes">RED-CHIEF
+                      </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="check">
+                        <summary>CUSTOMER RATING</summary>
+                        <div>
+                      <input type="checkbox" value="shoes">ADIDAS
+                      </div>
+                      <div>
+                      <input type="checkbox" value="shoes">NIKE
+                      </div>
+                      <div>
+                      <input type="checkbox" value="shoes">SPARX
+                      </div>
+                      <div>
+                      <input type="checkbox" value="shoes">BATA
+                      </div>
+                      <div>
+                      <input type="checkbox" value="shoes">UNISTAR
+                      </div>
+                      <div>
+                      <input type="checkbox" value="shoes">RED-CHIEF
+                      </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="check">
+                        <summary>SIZE UK/INDIA</summary>
+                        <div>
+                            <input type="checkbox" value="size">2
+                        </div>
+                        <div>
+                            <input type="checkbox" value="size">3
+                        </div>
+                        <div>
+                            <input type="checkbox" value="size">4
+                        </div>
+                        <div>
+                            <input type="checkbox" value="size">5
+                        </div>
+                        <div>
+                            <input type="checkbox" value="size">6
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="check">
+                        <summary>RANGE BAR</summary>
+                        <div>
+                            <input type="range" min="1" max="10000" value="100000" class="range">
+                        </div>
+                        <div>
+                            <p  class="min_value">100</p>
+                        </div>
+                        <div>
+                            <p class="max_value">100000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bright">
+                <div class="brtop">
+                    <img src="./images1/bann.png"/>
+                </div>
+                <div class="brbottom">
+                    <div>
+                        <div class="product">
+                            <img src="p1.jpg" width="100%" height="120px">
+                            <div class="productinfo">
+                                 <div class="productname text-center">
+                                     <strong>Ronson</strong>
+                                 </div>
+                                 <div class="productbtn text-center">
+                                     <strong>₹499</strong>
+                                     <del class="del_price">₹999</del>
+                                      <span class="offer">60% off</span>
+                                      <span class="likeicon" id="like"><i class="fas fa-heart" onclick="like(this)"></i></span>
+                                 </div>
+                                 <div>
+                                     <a href="shoppage.html"><button class="brbtn">Shop Now</button></a>
+                                 </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div>
+                        <div class="product">
+                            <img src="p2.jpeg" width="100%" height="120px">
+                            <div class="productinfo">
+                                 <div class="productname text-center">
+                                     <strong>Ronson</strong>
+                                 </div>
+                                 <div class="productbtn text-center">
+                                     <strong>₹499</strong>
+                                     <del class="del_price">₹999</del>
+                                      <span class="offer">60% off</span>
+                                      <span class="likeicon" id="like"><i class="fas fa-heart" onclick="like(this)"></i></span>
+                                 </div>
+                                 <div>
+                                     <a href="shoppage.html"><button class="brbtn">Shop Now</button></a>
+                                 </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div>
+                        <div class="product">
+                            <img src="p3.jpeg">
+                            <div class="productinfo">
+                                 <div class="productname text-center">
+                                     <strong>Ronson</strong>
+                                 </div>
+                                 <div class="productbtn text-center">
+                                     <strong>₹499</strong>
+                                     <del class="del_price">₹999</del>
+                                      <span class="offer">60% off</span>
+                                      <span class="likeicon" id="like"><i class="fas fa-heart" onclick="like(this)"></i></span>
+                                 </div>
+                                 <div>
+                                     <a href="shoppage.html"><button class="brbtn">Shop Now</button></a>
+                                 </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div>
+                        <div class="product">
+                            <img src="p4.jpeg">
+                            <div class="productinfo">
+                                 <div class="productname text-center">
+                                     <strong>Ronson</strong>
+                                 </div>
+                                 <div class="productbtn text-center">
+                                     <strong>₹499</strong>
+                                     <del class="del_price">₹999</del>
+                                      <span class="offer">60% off</span>
+                                      <span class="likeicon" id="like"><i class="fas fa-heart" onclick="like(this)"></i></span>
+                                 </div>
+                                 <div>
+                                     <a href="shoppage.html"><button class="brbtn">Shop Now</button></a>
+                                 </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div>
+                        <div class="product">
+                            <img src="p5.jpeg">
+                            <div class="productinfo">
+                                 <div class="productname text-center">
+                                     <strong>Ronson</strong>
+                                 </div>
+                                 <div class="productbtn text-center">
+                                     <strong>₹499</strong>
+                                     <del class="del_price">₹999</del>
+                                      <span class="offer">60% off</span>
+                                      <span class="likeicon" id="like"><i class="fas fa-heart" onclick="like(this)"></i></span>
+                                 </div>
+                                 <div>
+                                     <a href="shoppage.html"><button class="brbtn">Shop Now</button></a>
+                                 </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div>
+                        <div class="product">
+                            <img src="p6.jpeg">
+                            <div class="productinfo">
+                                 <div class="productname text-center">
+                                     <strong>Ronson</strong>
+                                 </div>
+                                 <div class="productbtn text-center">
+                                     <strong>₹499</strong>
+                                     <del class="del_price">₹999</del>
+                                      <span class="offer">60% off</span>
+                                      <span class="likeicon" id="like"><i class="fas fa-heart" onclick="like(this)"></i></span>
+                                 </div>
+                                 <div>
+                                     <a href="shoppage.html"><button class="brbtn">Shop Now</button></a>
+                                 </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div>
+                        <div class="product">
+                            <img src="p7.jpeg">
+                            <div class="productinfo">
+                                 <div class="productname text-center">
+                                     <strong>Ronson</strong>
+                                 </div>
+                                 <div class="productbtn text-center">
+                                     <strong>₹499</strong>
+                                     <del class="del_price">₹999</del>
+                                      <span class="offer">60% off</span>
+                                      <span class="likeicon" id="like"><i class="fas fa-heart" onclick="like(this)"></i></span>
+                                 </div>
+                                 <div>
+                                     <a href="shoppage.html"><button class="brbtn">Shop Now</button></a>
+                                 </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div>
+                        <div class="product">
+                            <img src="p8.jpeg">
+                            <div class="productinfo">
+                                 <div class="productname text-center">
+                                     <strong>Ronson</strong>
+                                 </div>
+                                 <div class="productbtn text-center">
+                                     <strong>₹499</strong>
+                                     <del class="del_price">₹999</del>
+                                      <span class="offer">60% off</span>
+                                      <span class="likeicon" id="like"><i class="fas fa-heart" onclick="like(this)"></i></span>
+                                 </div>
+                                 <div>
+                                     <a href="shoppage.html"><button class="brbtn">Shop Now</button></a>
+                                 </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div>
+                        <div class="product">
+                            <img src="p9.jpeg">
+                            <div class="productinfo">
+                                 <div class="productname text-center">
+                                     <strong>Ronson</strong>
+                                 </div>
+                                 <div class="productbtn text-center">
+                                     <strong>₹499</strong>
+                                     <del class="del_price">₹999</del>
+                                      <span class="offer">60% off</span>
+                                      <span class="likeicon" id="like"><i class="fas fa-heart" onclick="like(this)"></i></span>
+                                 </div>
+                                 <div>
+                                     <a href="shoppage.html"><button class="brbtn">Shop Now</button></a>
+                                 </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div>
+                        <div class="product">
+                            <img src="p10.jpeg">
+                            <div class="productinfo">
+                                 <div class="productname text-center">
+                                     <strong>Ronson</strong>
+                                 </div>
+                                 <div class="productbtn text-center">
+                                     <strong>₹499</strong>
+                                     <del class="del_price">₹999</del>
+                                      <span class="offer">60% off</span>
+                                      <span class="likeicon" id="like"><i class="fas fa-heart" onclick="like(this)"></i></span>
+                                 </div>
+                                 <div>
+                                     <a href="shoppage.html"><button class="brbtn">Shop Now</button></a>
+                                 </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div>
+                        <div class="product">
+                            <img src="p11.jpeg">
+                            <div class="productinfo">
+                                 <div class="productnamer">
+                                     <strong>Ronson</strong>
+                                 </div>
+                                 <div class="productbtn">
+                                     <strong>₹499</strong>
+                                     <del class="del_price">₹999</del>
+                                      <span class="offer">60% off</span>
+                                      <span class="likeicon" id="like"><i class="fas fa-heart" onclick="like(this)"></i></span>
+                                 </div>
+                                 <div>
+                                     <a href="shoppage.html"><button class="brbtn">Shop Now</button></a>
+                                 </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div>
+                        <div class="product">
+                            <img src="p12.jpeg">
+                            <div class="productinfo">
+                                 <div class="productname text-center">
+                                     <strong>Ronson</strong>
+                                 </div>
+                                 <div class="productbtn text-center">
+                                     <strong>₹499</strong>
+                                     <del class="del_price">₹999</del>
+                                      <span class="offer">60% off</span>
+                                      <span class="likeicon" id="like"><i class="fas fa-heart" onclick="like(this)"></i></span>
+                                 </div>
+                                 <div>
+                                     <a href="shoppage.html"><button class="brbtn">Shop Now</button></a>
+                                 </div>
+                            </div>
+                       </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <footer class="ftr">
+            <div class="ftrh1"><h1>Does your brand need some love?we'd love to help! give us a shout</h1></div>
+            <div class="ftrp"><p>Mail us:0785Akash@gmail.com</p></div>
+        </footer>
+        <div class="whtsap">
+                <a href="https://wa.me/919158391388">
+                    <img src="./images1/580b57fcd9996e24bc43c543.png"/>
+                </a>
+        </div>
+
+    </div>
+    <script src="./js/ecommerce.js"></script>
+</body>
+</html>
